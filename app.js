@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin_arashk:Arashk2020Esk@cluster0.acm3w.mongodb.net/todolistDB", {
+mongoose.connect("Removed from public repo", {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
